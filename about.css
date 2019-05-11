@@ -8,6 +8,8 @@
 {	text-align: center;
 	border-top:3px solid black;
 	border-bottom:3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 	background-color: #8c0000;
 	border-radius: 60px;
 }
@@ -35,13 +37,13 @@
 	font-size: 30px;
 	text-align:center;
 	border-radius: 25px;
-  border: 2px solid #f22626;
-  padding: 20px;
-  width: 350px;
-  height: 65px; 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:50px;
+  	border: 2px solid #f22626;
+  	padding: 20px;
+  	width: 350px;
+  	height: 65px; 
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:50px;
 }
 
 #intro{
@@ -50,13 +52,13 @@
 	float: left;
 	text-align:justify;
 	border-radius: 25px;
-  border: 2px solid #f22626;
-  padding: 20px;
-  width: 550px;
-  height: 260px; 
-  margin-left: 300px;
-  margin-right: auto;
-  margin-top:50px;
+  	border: 2px solid #f22626;
+  	padding: 20px;
+  	width: 550px;
+  	height: 260px; 
+  	margin-left: 300px;
+  	margin-right: auto;
+  	margin-top:50px;
 }
 #info{
 	font-size: 25px;
@@ -64,14 +66,13 @@
 	float:left;
 	text-align:justify;
 	border-radius: 25px;
-  border: 2px solid #f22626;
-  padding: 20px;
-  width: 550px;
-  height: 260px; 
-  
-  margin-right: auto;
-  margin-top:50px;
-  margin-left: 100px;
+  	border: 2px solid #f22626;
+  	padding: 20px;
+  	width: 550px;
+  	height: 260px; 
+  	margin-right: auto;
+  	margin-top:50px;
+  	margin-left: 100px;
 }
 #tues-site{
 	text-decoration:none;
