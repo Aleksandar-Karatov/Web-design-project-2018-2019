@@ -1,7 +1,6 @@
 var startTime, endTime;
 function hoverIn()
 {
-
 	startTime = Date.now();
 }
 function hoverOut()
