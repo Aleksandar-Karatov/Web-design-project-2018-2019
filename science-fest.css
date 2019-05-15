@@ -1,7 +1,6 @@
 body{
 	background-color:#fff7f8; 
-}
-#TT-title
+}#TT-title
 {
 	text-align: center;
 	font-size: 50px;
@@ -36,73 +35,64 @@ body{
 	color:#FFFF;
 	font-size:50px;
 }
-#Top-10{
+#title{
 	font-size: 30px;
 	text-align:center;
 	border-radius: 25px;
   	border: 2px solid #f22626;
- 	padding: 20px;
-  	width: 200px;
-  	height: 35px; 
+  	padding: 20px;
+  	width: 350px;
+  	height: 40px; 
   	margin-left: auto;
   	margin-right: auto;
   	margin-top:50px;
+	transition:transform .2s;
 }
+#title:hover{
+	 transform: scale(1.1);
 
-.previewimg{
-	height: 200px;
-	width: 400px;
-	border-radius: 25px;
 }
-.left{
-	text-decoration:none;
-	color:black;
-	display: inline;
-	transition: transform .2s, background 0.5s ease-in-out;
-	float:left;
-	font-size: 20px;
-	border-radius: 25px;
-  	border: 2px solid #f22626;
- 	padding: 20px;
-  	width: 400px;
-  	height: 550px; 
-  	margin-top:70px;
-  	margin-left: 100px;
-  	 
-}
-.left:hover{
-	transform: scale(1.2);
-	 background:#efb1b1 ;
-}
-.right{
-	text-decoration:none;
-	transition: transform .2s, background 0.5s ease-in-out;
+#date{
+	text-align: center;
+}.info{
 	font-size: 20px;
 	display: inline;
 	float:left;
+	text-align: justify;
 	color:black;
 	border-radius: 25px;
   	border: 2px solid #f22626;
   	padding: 20px;
-  	width: 400px;
-  	height: 550px; 
-  	margin-top:70px;
-  	margin-left: 200px;
+  	width: 1600px;
+  	height: 220px; 
+  	margin-top:40px;
+  	margin-bottom: 50px;
+  	margin-left: 100px;
+  	transition:transform .2s;
 }
-.right:hover{
-	 transform: scale(1.2);
-	 background:#efb1b1;
+.info:hover{
+	 transform: scale(1.1);
 }
-
-#powered{
-	display: inline;
-	
-	margin-left: 500px;
-}
-#bottom{
+.science-fest-img{
+	border-radius: 25px;
+	height: 600px;
+	width:900px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
 	display: block;
-	border-top:6px ridge; 
-	margin-top: 1500px;
-	color: white;
-
+	transition:transform .2s;
+}
+.science-fest-img:hover{
+	 transform: scale(1.1);
+}
+#text2{
+	height: 230px;
+}
+#source{
+	text-decoration: none;
+	color:#f22626;
+}
+#source:hover{
+	text-decoration: underline;
 }
